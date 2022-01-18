@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1907485053120082481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1907485053120082487}
+  - component: {fileID: 1907485053120082480}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1907485053120082487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907485053120082481}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1907485053120082480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907485053120082481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03fce8baaa4a1b84e93a070850409d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winRoom: {fileID: 5997210014926936556, guid: 8468af09c5dc499429b6b99752d76fa2, type: 3}
+  shopRoom: {fileID: 298426058859662029, guid: dca04b8e93c4ca94eaacfe3f700cb4ff, type: 3}
+  maxRoomAmount: 50
+  spawnRoomChance: 2
+  connectDoorChance: 2
+  roomPrefabs:
+  - {fileID: 6421345996448495264, guid: e43c853201af82548a4daac0a637a85e, type: 3}
+  - {fileID: 7407920106134065297, guid: b60a79aef5f71844b81bb2a9e2fa1dbb, type: 3}
+  - {fileID: 2597839897644912505, guid: 3ea154a77b7316940aa75b8a30221e45, type: 3}
+  - {fileID: 8395152028882317804, guid: c84d60e83863d5f408315b66325636ff, type: 3}
+  - {fileID: 4033335579263635311, guid: 54597abe4270691469a52273b68e0c41, type: 3}
+  rooms:
+  - {fileID: 0}
+  occupiedCoordinates: []
+  tempRooms: []

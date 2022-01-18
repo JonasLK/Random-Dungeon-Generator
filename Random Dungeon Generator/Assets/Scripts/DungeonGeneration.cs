@@ -52,7 +52,6 @@ public class DungeonGeneration : MonoBehaviour
                             {
                                 if (doorScript.spawnRoomLocation.transform.position == coordinates.transform.position)
                                 {
-                                    //print(coordinates.transform.position);
                                     coordinatesChecker++;
                                     doorScript.isThereARoomHere = true;
                                 }
@@ -71,7 +70,6 @@ public class DungeonGeneration : MonoBehaviour
                                 {
                                     justSpawnedRoom = Instantiate(roomPrefabs[Random.Range(0, roomPrefabs.Length)], doorScript.spawnRoomLocation.transform.position, Quaternion.identity);
                                 }
-                                //print(justSpawnedRoom.transform.position);
                                 occupiedCoordinates.Add(justSpawnedRoom);
                                 tempRooms.Add(justSpawnedRoom);
                                 currentRoomAmount++;
@@ -146,6 +144,3 @@ public class DungeonGeneration : MonoBehaviour
         otherDoor.GetComponent<Door>().Connect();
     }
 }
-/* voor instanciate room check of coordinaten niet in array staan
- * coordinate van gespawnde room toevoegen aan array
- */
